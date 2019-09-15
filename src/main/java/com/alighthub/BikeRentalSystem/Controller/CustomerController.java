@@ -30,7 +30,7 @@ public class CustomerController {
 		
 		service.addCustomer(customer);
 		
-		System.out.println("hi");
+		System.out.println("hiiiiiii");
 		
 		return "customer added successful";
 		

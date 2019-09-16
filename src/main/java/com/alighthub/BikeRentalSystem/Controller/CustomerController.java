@@ -29,9 +29,6 @@ public class CustomerController {
 	public String addCustomer(@RequestBody CustomerDetails customer) {
 		
 		service.addCustomer(customer);
-		
-		System.out.println("hiiiiiii123.......");
-		
 		return "customer added successful";
 		
 	}
